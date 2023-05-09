@@ -39,6 +39,7 @@ def main():
         if user_question:
             docs = knowledge_base.similarity_search(user_question)
             st.write(docs)
+        # stop here
 
 
 if __name__ == '__main__':
